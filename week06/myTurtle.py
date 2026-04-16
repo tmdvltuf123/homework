@@ -3,7 +3,7 @@ from tkinter.simpledialog import *
 
 def getString() :
     retStr = ''
-    retStr = askstring('문자열 입력', '거북이가 쓸 문자열을 입력하세요')
+    retStr = askstring('문자열 입력', '거북이가 쓸 문자열을 입력')
     return retStr
 
 
