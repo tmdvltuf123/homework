@@ -16,7 +16,6 @@ turtle.speed(5)
 
 inStr = getString() 
 
-
 for ch in inStr :
    
     tX, tY, tAngle, tSize = getXYAS(swidth, sheight)
@@ -24,10 +23,9 @@ for ch in inStr :
     r, g, b = getRGB()
     
     turtle.goto(tX, tY)       
-    turtle.left(tAngle)     
+    turtle.left(tAngle)   
+
     turtle.pencolor((r, g, b)) 
-    
-  
     turtle.write(ch, font=('맑은 고딕', tSize, 'bold'))
 
 turtle.done()
